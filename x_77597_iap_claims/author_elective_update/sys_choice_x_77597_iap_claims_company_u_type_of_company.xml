@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_type_of_company" table="x_77597_iap_claims_company" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type_of_company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Private</label>
+            <language>en</language>
+            <name>x_77597_iap_claims_company</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-03 00:26:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09d32abb2ff380106a2711c82799b67a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-03 00:26:54</sys_updated_on>
+            <value>private</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type_of_company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Public Listed</label>
+            <language>en</language>
+            <name>x_77597_iap_claims_company</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-03 00:26:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9d32abb2ff380106a2711c82799b67c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-03 00:26:54</sys_updated_on>
+            <value>public listed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type_of_company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Public Unlisted</label>
+            <language>en</language>
+            <name>x_77597_iap_claims_company</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-03 00:26:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09d32abb2ff380106a2711c82799b67e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-03 00:26:54</sys_updated_on>
+            <value>public unlisted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type_of_company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Association</label>
+            <language>en</language>
+            <name>x_77597_iap_claims_company</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-03 00:26:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45d32abb2ff380106a2711c82799b680</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-03 00:26:54</sys_updated_on>
+            <value>association</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type_of_company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Co-operative</label>
+            <language>en</language>
+            <name>x_77597_iap_claims_company</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-03 00:26:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81d32abb2ff380106a2711c82799b682</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-03 00:26:54</sys_updated_on>
+            <value>co-operative</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_type_of_company</element>
+            <name>x_77597_iap_claims_company</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-03 00:26:54</sys_created_on>
+            <sys_id>41d32abb2ff380106a2711c82799b67b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_type_of_company</sys_name>
+            <sys_package display_value="IAP Claims" source="x_77597_iap_claims">2b7dc63b2fb380106a2711c82799b658</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IAP Claims">2b7dc63b2fb380106a2711c82799b658</sys_scope>
+            <sys_update_name>sys_choice_x_77597_iap_claims_company_u_type_of_company</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-03 00:26:54</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

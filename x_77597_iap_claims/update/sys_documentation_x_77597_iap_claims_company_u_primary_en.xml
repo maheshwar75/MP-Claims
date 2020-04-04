@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_primary" label="Primary" language="en" table="x_77597_iap_claims_company">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_primary</element>
+            <help/>
+            <hint/>
+            <label>Primary</label>
+            <language>en</language>
+            <name>x_77597_iap_claims_company</name>
+            <plural>Primaries</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-03 03:26:21</sys_created_on>
+            <sys_id>b5eccfb32f7780106a2711c82799b696</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Primary</sys_name>
+            <sys_package display_value="IAP Claims" source="x_77597_iap_claims">2b7dc63b2fb380106a2711c82799b658</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IAP Claims">2b7dc63b2fb380106a2711c82799b658</sys_scope>
+            <sys_update_name>sys_documentation_x_77597_iap_claims_company_u_primary_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-03 03:26:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

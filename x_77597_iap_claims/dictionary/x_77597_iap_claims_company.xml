@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Company" max_length="40" name="x_77597_iap_claims_company" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Primary" max_length="40" name="u_boolean_3" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Country" max_length="40" name="u_country" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Australia" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="China" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="United States" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="India" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Taiwan" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Hongkong" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Japan" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Korea" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="United Kingdom" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Germany" sequence="9" value="10"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Date of Incorporation" max_length="40" name="u_date_of_incorporation" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Fax" max_length="15" name="u_fax" type="string"/>
+        <element label="Manufacturer" max_length="40" name="u_manufacturer" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="15" name="u_phone" type="string"/>
+        <element label="Primary" max_length="40" name="u_primary" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Primary Contact Person" mandatory="true" max_length="32" name="u_primary_contact_person" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Secondary Contact Person" max_length="32" name="u_secondary_contact_person" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="State/Province" max_length="20" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Street Address" max_length="40" name="u_street" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tax Number" max_length="15" name="u_tax_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Trading As" max_length="40" name="u_trading_as" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Company" max_length="40" name="u_type_of_company" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Private" sequence="0" value="private"/>
+                <element inactive_on_update="false" label="Public Listed" sequence="1" value="public listed"/>
+                <element inactive_on_update="false" label="Public Unlisted" sequence="2" value="public unlisted"/>
+                <element inactive_on_update="false" label="Association" sequence="3" value="association"/>
+                <element inactive_on_update="false" label="Co-operative" sequence="4" value="co-operative"/>
+            </choice>
+        </element>
+        <element label="Vendor" max_length="40" name="u_vendor" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Website" max_length="1024" name="u_website" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Zip / Postal Code" max_length="6" name="u_zip_postal_code" type="string"/>
+    </element>
+</database>

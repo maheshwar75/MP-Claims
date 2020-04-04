@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_77597_iap_claims_company">x_77597_iap_claims_company</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>COM</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-02 22:52:39</sys_created_on>
+        <sys_id>d44e8a7f2fb380106a2711c82799b646</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>COM</sys_name>
+        <sys_package display_value="IAP Claims" source="x_77597_iap_claims">2b7dc63b2fb380106a2711c82799b658</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IAP Claims">2b7dc63b2fb380106a2711c82799b658</sys_scope>
+        <sys_update_name>sys_number_d44e8a7f2fb380106a2711c82799b646</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-02 22:52:39</sys_updated_on>
+    </sys_number>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_manufacturer</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 03:19:41</sys_created_on>
+        <sys_id>db4b4f732f7780106a2711c82799b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_manufacturer</sys_name>
+        <sys_package display_value="IAP Claims" source="x_77597_iap_claims">2b7dc63b2fb380106a2711c82799b658</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IAP Claims">2b7dc63b2fb380106a2711c82799b658</sys_scope>
+        <sys_update_name>sys_ui_policy_action_db4b4f732f7780106a2711c82799b61e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 03:19:41</sys_updated_on>
+        <table>x_77597_iap_claims_company</table>
+        <ui_policy display_value="Hide Manufacturer and Vendor if Primary is ticked">eb0b8b732f7780106a2711c82799b64d</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

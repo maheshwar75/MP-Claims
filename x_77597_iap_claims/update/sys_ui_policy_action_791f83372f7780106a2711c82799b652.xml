@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_state</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 03:36:17</sys_created_on>
+        <sys_id>791f83372f7780106a2711c82799b652</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_state</sys_name>
+        <sys_package display_value="IAP Claims" source="x_77597_iap_claims">2b7dc63b2fb380106a2711c82799b658</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IAP Claims">2b7dc63b2fb380106a2711c82799b658</sys_scope>
+        <sys_update_name>sys_ui_policy_action_791f83372f7780106a2711c82799b652</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 03:39:51</sys_updated_on>
+        <table>x_77597_iap_claims_company</table>
+        <ui_policy display_value="Make Address fields mandatory when Primary is ticked">289ec3372f7780106a2711c82799b6f2</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>
